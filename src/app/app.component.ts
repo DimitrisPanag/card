@@ -10,5 +10,21 @@ import { CardComponent } from './card/card.component';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'card';
+  posts = [
+    { title: 'Neat Tree',
+    imageUrl: 'assets/tree.jpeg',
+    username: 'nature',
+    content: 'I saw a Neat Tree today'
+    },
+    { title: 'Snowy Mountain',
+    imageUrl: 'assets/mountain.jpeg',
+    username: 'mountainLoverr',
+    content: 'Here is a picture of a snowy mountain'
+    },
+    { title: 'Mountain Biking',
+    imageUrl: 'assets/biking.jpeg',
+    username: 'biking12222',
+    content: 'I did some biking today'
+    }
+  ]
 }
